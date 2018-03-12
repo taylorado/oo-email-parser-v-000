@@ -8,8 +8,6 @@ class EmailParser
 
   #attr_accessor :emails
 
-  #@@emails_array = []
-
   def initialize(emails)
     @emails = emails
   end
