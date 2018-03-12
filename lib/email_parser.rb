@@ -10,13 +10,13 @@ class EmailParser
 
   @@emails_array = []
 
-  def initialize(emails)
-    @emails = emails
-  end
+  #def initialize(emails)
+  #  @emails = emails
+  #end
 
   def parse
     @@emails_array = @emails.split(/[,\s]/)
-    @@emails_array = @@emails_array.reject { |e| e == ""}
+    @@emails_array = @@emails_array.reject { |i| i == ""}
     @@emails_array.uniq
   end
 
