@@ -9,7 +9,7 @@ class EmailParser
   attr_accessor :emails
 
   @@emails_array = []
-
+  @emails = ""
   #def initialize(emails)
   #  @emails = emails
   #end
