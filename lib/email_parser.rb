@@ -16,7 +16,7 @@ class EmailParser
 
   def parse
     #@@emails_array = @emails.split(/[,\s]/)
-    ( @emails.split(/[,\s]/)).reject { |i| i == ""}).uniq
+    ((@emails.split(/[,\s]/)).reject { |i| i == ""}).uniq
   end
 
 end
