@@ -12,7 +12,7 @@ class EmailParser
   #end
 
   def parse
-    ((self.split(/[,\s]/)).reject { |i| i == ""}).uniq
+    ((self.emails.split(/[,\s]/)).reject { |i| i == ""}).uniq
   end
 
 end
