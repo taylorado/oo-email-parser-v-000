@@ -6,7 +6,7 @@
 
 class EmailParser
 
-  attr_accessor :emails
+  #attr_accessor :emails
 
   @@emails_array = []
 
